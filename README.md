@@ -4,6 +4,8 @@ A Simple Ping Pong game written in VHDL for Spartan 3E FPGA board. <br>
 
 ![GitHub](https://img.shields.io/github/license/ashvnv/FPGA-Ping-Pong-game)
 
+<img src="https://github.com/ashvnv/FPGA-Ping-Pong-game/blob/main/media/video.gif" width="200" />
+
 | | |
 | ------------- | ------------- |
 | Category  | FPGA  |
