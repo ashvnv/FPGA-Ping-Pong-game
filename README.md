@@ -9,7 +9,7 @@ A Simple Ping Pong game written in VHDL for Spartan 3E FPGA board. <br>
 | Category  | FPGA  |
 | Target Device  | Spartan 3E  |
 | Language | VHDL |
-| Tool | Xilinx 14.5 |
+| Tool | Xilinx ISE 14.5 |
 
 Clone this repository and open the **display1.ipf** file *(/display1/display1.ipf)* on Xilinx. <br>
 There is no test bench in the project. The program was dumped directly on the board.
