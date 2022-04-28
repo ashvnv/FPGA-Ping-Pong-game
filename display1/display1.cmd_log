@@ -1,0 +1,477 @@
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.xst" -ofn "C:/Users/Ashwin/Downloads/TEMP/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 display1.ngc display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 
+xst -intstyle ise -ifn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.xst" -ofn "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-4 "display1.ngc" display1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o display1_map.ncd display1.ngd display1.pcf 
+par -w -intstyle ise -ol high -t 1 display1_map.ncd display1.ncd display1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml display1.twx display1.ncd -o display1.twr display1.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f display1.ut display1.ncd 

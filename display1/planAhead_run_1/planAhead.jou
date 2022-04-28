@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Wed Apr 27 00:54:27 2022
+# Process ID: 2464
+# Log file: C:/Users/Ashwin/Downloads/TEMP/display1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Ashwin/Downloads/TEMP/display1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Ashwin/Downloads/TEMP/display1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

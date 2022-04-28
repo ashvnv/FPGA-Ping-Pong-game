@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\MEGA\Education\University\FCRIT 2020\Files\3rd year\SEM 6\Projects\Mini project\Files\display1\display1.ncd
+OUTFILE=D:\MEGA\Education\University\FCRIT 2020\Files\3rd year\SEM 6\Projects\Mini project\Files\display1\display1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\MEGA\Education\University\FCRIT 2020\Files\3rd year\SEM 6\Projects\Mini project\Files\display1
+LICENSE=WebPack
+USER_INFO=__0_0_0

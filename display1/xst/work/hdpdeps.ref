@@ -1,0 +1,10 @@
+V3 4
+FL C:/Users/Ashwin/Downloads/TEMP/display1/display1.vhd 2022/04/27.03:23:18 P.58f
+FL "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.vhd" 2022/04/28.01:41:03 P.58f
+EN work/display1 1651090267 \
+      FL "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/display1/Behavioral 1651090268 \
+      FL "D:/MEGA/Education/University/FCRIT 2020/Files/3rd year/SEM 6/Projects/Mini project/Files/display1/display1.vhd" \
+      EN work/display1 1651090267

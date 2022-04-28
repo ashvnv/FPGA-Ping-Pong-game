@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 28 01:41:58 2022
+
+drc -z display1.ncd display1.pcf
+
+DRC detected 0 errors and 0 warnings.
