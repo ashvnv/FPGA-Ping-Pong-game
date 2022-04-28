@@ -15,7 +15,7 @@ Clone this repository and open the **display1.ipf** file *(/display1/display1.ip
 There is no test bench in the project. The program was dumped directly on the board.
 
 ### Note
-You can get the **VHDL file** and **Constraint file** directly under **raw/** folder
+You can get the **VHDL file** and **Constraint file** directly under **raw/** folder. These files can be opened as text files.
 
 ---
 
