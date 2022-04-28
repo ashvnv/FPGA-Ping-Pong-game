@@ -34,4 +34,4 @@ Using a Spartan 3E board's internal VGA adapter, I have written a VHDL program w
 The VHDL program should work on different boards once these issues are tackled.
 
 ## Credits
-This project was inspired from daxerz's YouTube video ***VGA driver for FPGA in VHDL*** posted on ***Dec 29, 2016*** click [here](https://www.youtube.com/watch?v=eJMYVLPX0no)
+This project was inspired from daxerz's YouTube video ***VGA driver for FPGA in VHDL*** posted on ***Dec 29, 2016*** <br> [click here](https://www.youtube.com/watch?v=eJMYVLPX0no)
